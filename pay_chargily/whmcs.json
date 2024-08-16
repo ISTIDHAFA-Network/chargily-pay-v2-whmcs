@@ -1,0 +1,34 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "pay_chargily",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Chargily Pay v2",
+    "tagline": "Chargily Pay ™ support the most popular payment methods in Algeria: The CIB Banking Card, EDAHABIA.",
+    "features": [
+      "Native support for CIB and Edahabia payments.",
+      "Full functionality for both test and production environments, simplifying development and deployment phases.",
+      "Webhook validation using HMAC SHA256 signature to ensure payment integrity",
+      "Automatic invoice updates in WHMCS when payments are marked as paid by Chargily.",
+      "Support for custom discounts on each transaction, allowing merchants to offer flexible promotions.",
+      "Regional settings adapted to DZD currency and local language preferences."
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/istidhafa.net\/",
+    "email": "support@whmcs.com",
+    "support_url": "https:\/\/www.chargily.com\/"
+
+  },
+  "authors": [
+    {
+      "name": "ISTIDHAFA Network",
+      "homepage": "https:\/\/istidhafa.net\/"
+    }
+  ]
+}
